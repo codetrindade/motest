@@ -1,0 +1,6 @@
+framework module juno_direct_checkout {
+  umbrella header "juno_direct_checkout-umbrella.h"
+
+  export *
+  module * { export * }
+}

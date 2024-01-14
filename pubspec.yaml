@@ -1,0 +1,104 @@
+name: moveme
+description: Moveme.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.7+26
+
+environment:
+  sdk: ">=2.9.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  pusher:
+    git:
+      url: https://vagners2@bitbucket.org/343mobile/pusherflutter.git
+      path: ''
+
+  cupertino_icons: ^0.1.2
+
+  #externals libs
+  shared_preferences: ^0.5.10
+  flutter_masked_text: ^0.8.0
+  http: ^0.12.1
+  image_picker: ^0.6.7+21
+  device_info: ^0.4.2+7
+  package_info: ^0.4.3
+  intl: ^0.16.0
+  tuple: ^1.0.3
+  #date_utils: ^0.1.0+2
+  google_maps_flutter: ^1.0.5
+  location: ^3.2.4
+  android_intent: ^0.3.7+3
+  firebase_messaging: ^7.0.3
+  flutter_local_notifications: ^3.0.1
+  uuid: ^2.2.2
+  sliding_up_panel: ^1.0.2
+  flutter_page_transition: ^0.1.6
+  url_launcher: ^5.7.8
+  flutter_svg: ^0.18.0
+  flip_card: ^0.4.4
+  flushbar: 1.10.4
+  #juno_direct_checkout: ^1.0.0
+  juno_direct_checkout:
+    git:
+      url: https://github.com/vagners2/juno_direct_checkout_flutter.git
+    #path: ../../flutter_plugins/juno_direct_checkout_flutter/
+  load: ^0.1.6
+
+  get_it: ^4.0.2
+  provider: ^4.1.1
+  event_bus: ^1.1.1
+  #permission_handler: ^5.0.1+1
+  image_crop: ^0.3.4
+  flutter_html: ^1.0.0
+  keyboard_avoider: ^0.1.2
+  facebook_app_events: ^0.8.2
+  cpfcnpj: ^1.0.3
+  geolocator: ^6.1.14
+
+dev_dependencies:
+  build_runner: ^1.10.1
+  json_serializable: ^3.3.0
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - assets/images/
+    - assets/images/card/
+    - assets/icons/
+    - assets/gifs/
+
+  fonts:
+    - family:  MoveMeIcons
+      fonts:
+        - asset: assets/fonts/MoveMeIcons.ttf
+    - family: Montserrat
+      fonts:
+        #- asset: assets/fonts/Branding-Black.otf
+        #- asset: assets/fonts/Branding-BlackItalic.otf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          style: normal

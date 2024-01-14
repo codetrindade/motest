@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rafaeldalbosco:direct-checkout-android:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/243228989717faaea75df2c4ed488392/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/243228989717faaea75df2c4ed488392/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/243228989717faaea75df2c4ed488392/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rafaeldalbosco/direct-checkout-android/1.0.2/51f7cd161f492c3264535d459a30af6cf8987bee/direct-checkout-android-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rafaeldalbosco/direct-checkout-android/1.0.2/50755ef6581bc4278b3468f6fb415756af12a27e/direct-checkout-android-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

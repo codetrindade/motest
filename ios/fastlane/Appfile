@@ -1,0 +1,8 @@
+app_identifier("app.moveme.client") # The bundle identifier of your app
+apple_id("vagnerss@live.com") # Your Apple email address
+
+itc_team_id("692205") # App Store Connect Team ID
+team_id("N888Q8J68L") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
